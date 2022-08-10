@@ -8,9 +8,18 @@ namespace BookStore.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "webGentle";
+         //   var obj = new obj() { id = 1, name = "bas" };
+            return View();
+        }
+        public ViewResult About()
+        {
+            return View();
+        }
+        public ViewResult contactus()
+        {
+            return View();
         }
     }
 }
